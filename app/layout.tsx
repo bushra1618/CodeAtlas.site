@@ -7,9 +7,12 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "v0 App",
+  title: "CodeAtlas",
   description: "Created with v0",
   generator: "v0.app",
+  icons: {
+    icon: "/codeatlas logo final.png",
+  },
 }
 
 export default function RootLayout({
